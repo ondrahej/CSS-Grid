@@ -1,0 +1,32 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    color: orange;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.gridItem-1 {
+grid-row: span 2;
+}
+
+.gridItem-7 {
+grid-column: 2 / span 2;
+
+}
+
+.gridContainer > div {
+    background-color: rgb(77, 148, 241);
+    padding: 40px;
+}
